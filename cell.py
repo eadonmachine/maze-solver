@@ -49,7 +49,7 @@ class Cell:
         if self._win is None:
             return
         if undo:
-            color = "gray"
+            color = "LightBlue1"
         else:
             color = "red"
         line = Line(
